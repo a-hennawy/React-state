@@ -1,0 +1,28 @@
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box {
+  width: 160px; /* Set width of the box */
+  height: 160px; /* Set height of the box */
+  border: 2px solid #2980b9; /* Optional: add a border */
+  border-radius: 10px; /* Optional: round the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
+}
+
+.box-change-btn {
+  margin-top: 20px; /* Space between boxes and button */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Slightly round the button */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Increase font size */
+  display: block; /* Ensure the button is a block element */
+  margin-left: auto; /* Center button */
+  margin-right: auto; /* Center button */
+}
